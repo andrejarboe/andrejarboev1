@@ -25,8 +25,9 @@ const BlogPage = ({ data }) => (
 export const pageQuery = graphql`
   query BlogIndexQuery {
     allMarkdownRemark(
-      filter: { frontmatter: { layout: { eq: "blog-post" } } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { layout: { eq: "blog-post" } } },
+      sort: { fields: [frontmatter___date], 
+      order: DESC }
     ) {
       edges {
         node {
