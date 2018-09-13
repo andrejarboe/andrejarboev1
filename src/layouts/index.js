@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Header from '../components/header'
+import Navbar from '../components/Navbar/Navbar'
 import './index.css'
 
 const Layout = ({ children, data }) => (
@@ -15,6 +16,7 @@ const Layout = ({ children, data }) => (
       ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} />
+    <Navbar/>
     <div
       style={{
         margin: '0 auto',
