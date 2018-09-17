@@ -1,11 +1,19 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
+import './navbar.css'
+
  const Navbar = () => (
     <div style={{
         background: '#f4f4f4',
         paddingTop: '10px',
     }}>
+    <div className="actor">
+        <h1>Andre Jarboe</h1>
+    </div>
+    <div className="social">
+    
+    </div>
       <ul style={{
           listStyle: 'none',
           display: 'flex',
