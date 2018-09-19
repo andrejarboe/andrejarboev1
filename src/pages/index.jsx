@@ -5,19 +5,17 @@ import '../css/home.css'
 
 const IndexPage = () => (
   <div>
-    <div id="container">
+    <div id="home">
       <div>
         <img src="https://source.unsplash.com/user/erondu/900x1600" alt="" />
       </div>
       <div>
-        <img src="https://source.unsplash.com/user/erondu/900x1600" alt="" />
+        <img src="https://source.unsplash.com/user/erondu/900x1601" alt="" />
       </div>
       <div>
-        <img src="https://source.unsplash.com/user/erondu/900x1600" alt="" />
+        <img src="https://source.unsplash.com/user/erondu/900x1602" alt="" />
       </div>
-      <div>
-        <img src="https://source.unsplash.com/user/erondu/900x1600" alt="" />
-      </div>
+
     </div>
   </div>
 )    

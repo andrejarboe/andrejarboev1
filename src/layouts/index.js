@@ -52,6 +52,8 @@
 // ************************************************************************************************
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
+
 
 // import Header from '../components/Header/Header';
 // import {Main} from './components/Main';
@@ -69,6 +71,12 @@ const Layout = ({ children, data }) => (
     <div className="Site-content">
       <div className="App-header">
         {/* <Header /> */}
+        <Helmet>
+       
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+          
+         
+        </Helmet>
         <Navbar />
       </div>
       <div className="main">

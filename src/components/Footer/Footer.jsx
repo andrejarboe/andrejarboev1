@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
- const Navbar = () => (
-    <div style={{
+ const Footer = () => (
+    <footer style={{
         background: '#f4f4f4',
         paddingTop: '10px',
     }}>
@@ -24,7 +24,7 @@ import Link from 'gatsby-link';
             <Link to="/blog">Blog</Link>
         </li>
       </ul>
-    </div>
+    </footer>  
   )
 
-  export default Navbar
+  export default Footer
