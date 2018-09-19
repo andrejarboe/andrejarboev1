@@ -5,14 +5,7 @@ import Link from 'gatsby-link'
 import './navbar.css'
 
 const Navbar = () => (
-  <nav
-    style={{
-      background: '#f4f4f4',
-      paddingTop: '10px',
-    }}
-    className="wrapper"
-    id="Navbar"
-  >
+  <nav  className="wrapper" id="Navbar">
     <div className="actor">
       <h1>Andre Jarboe</h1>
     </div>

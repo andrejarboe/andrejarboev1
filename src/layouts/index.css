@@ -2,6 +2,7 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  color: #001f3f;
 }
 body {
   margin: 0;
@@ -40,6 +41,8 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: #001f3f;
+  text-decoration: none;
 }
 a:active,
 a:hover {

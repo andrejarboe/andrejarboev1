@@ -1,24 +1,18 @@
- .wrapper {
+.wrapper {
   /* display: grid; */
   /* grid-gap: 20px;
   grid-gap: 10px;
   max-width: 960px;
   margin: 0 auto; */
-} 
-#Navbar{
-    color: #001f3f;
 }
+/* #Navbar{
+    color: #001f3f;
+} */
 
 nav h1 {
-  text-align: center;
-  margin: 0;
+
 }
 
 .social {
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
-  max-width: 500px;
-  margin: 10px auto;
-  /* padding:  */
+
 }

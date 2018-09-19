@@ -61,8 +61,8 @@ import Header from '../components/Header'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
+// import './index.css'
 import './main.css'
-import './index.css'
 
 const Layout = ({ children, data }) => (
   <div className="App Site">
@@ -76,6 +76,8 @@ const Layout = ({ children, data }) => (
             integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB"
             crossorigin="anonymous"
           />
+          <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:100" rel="stylesheet" />
+          {/* <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet"></link> */}
         </Helmet>
         <Navbar />
       </div>
