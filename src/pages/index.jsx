@@ -15,7 +15,6 @@ const IndexPage = () => (
       <div>
         <img src="https://source.unsplash.com/user/erondu/900x1602" alt="" />
       </div>
-
     </div>
   </div>
 )    

@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import './navbar.css'
+import '../../layouts/main.css'
 
 const Navbar = () => (
   <div
@@ -10,17 +11,30 @@ const Navbar = () => (
       paddingTop: '10px',
     }}
     className="wrapper"
+    id="Navbar"
   >
     <div className="actor">
       <h1>Andre Jarboe</h1>
     </div>
     <div className="social">
+    <a href="https://www.instagram.com/andrejarboeii/" target="_blank">
       <i className="fab fa-instagram " />
+    </a>
+    <a href="https://www.instagram.com/andrejarboeii/" target="_blank">
+      <i className="fab fa-facebook " />
+    </a>
+    <a href="https://www.instagram.com/andrejarboeii/" target="_blank">
+      <i className="fab fa-twitter " />
+    </a>
+    <a href="https://www.instagram.com/andrejarboeii/" target="_blank">
+    <i class="fab fa-imdb"></i>
+    </a>
+    <a href="https://www.instagram.com/andrejarboeii/" target="_blank">
+      <i className="fab fa-youtube " />
+    </a>
+    <a href="https://www.instagram.com/andrejarboeii/" target="_blank">
       <i className="fab fa-instagram " />
-      <i className="fab fa-instagram " />
-      <i className="fab fa-instagram " />
-      <i className="fab fa-instagram " />
-      <i className="fab fa-instagram " />
+    </a>
     </div>
     <ul
       style={{

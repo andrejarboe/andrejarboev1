@@ -5,6 +5,9 @@
   max-width: 960px;
   margin: 0 auto; */
 } 
+#Navbar{
+    color: #001f3f;
+}
 
 h1 {
   text-align: center;
