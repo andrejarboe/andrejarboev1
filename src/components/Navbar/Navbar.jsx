@@ -27,7 +27,7 @@ const Navbar = () => (
       <i className="fab fa-twitter " />
     </a>
     <a href="https://www.instagram.com/andrejarboeii/" target="_blank">
-    <i class="fab fa-imdb"></i>
+    <i className="fab fa-imdb" />
     </a>
     <a href="https://www.instagram.com/andrejarboeii/" target="_blank">
       <i className="fab fa-youtube " />
