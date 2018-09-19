@@ -8,7 +8,7 @@ const Navbar = () => (
   <div
     style={{
       background: '#f4f4f4',
-    //   paddingTop: '10px',
+      paddingTop: '10px',
     }}
     className="wrapper"
     id="Navbar"
