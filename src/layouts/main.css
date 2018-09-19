@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --space: 1.5em 0;
   --space: 2em 0;
@@ -11,10 +16,10 @@
 }
 
 .Site-content {
-    flex: 1 0 auto;
-    padding: var(--space) var(--space) 0;
-    width: 100%;
-    padding-top: 0; /* Needed for netlify*/
+  flex: 1 0 auto;
+  padding: var(--space) var(--space) 0;
+  width: 100%;
+  padding-top: 0; /* Needed for netlify*/
 }
 
 .Site-content:after {
@@ -25,36 +30,38 @@
   visibility: hidden;
 }
 
-body{
-  margin: 0;
-}
-
-h1, h2, h3, h4, h5, h6,
-a, p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
   color: var(--primary);
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-h1{
+h1 {
   font-size: 3rem;
 }
 
-img{
+img {
   width: 100%;
 }
 
 /* navbar */
-nav h1{
+nav h1 {
   text-align: center;
   margin: 0;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
 }
 
-nav .social{
+nav .social {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
@@ -62,7 +69,28 @@ nav .social{
   margin: 10px auto;
 }
 
-nav li{
+nav li {
   font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase
+  text-transform: uppercase;
+}
+
+/* Home */
+#home {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 960px;
+  margin: 0 auto;
+  grid-gap: 1rem;
+  /* margin-bottom: 26.1px; */
+}
+
+#home div {
+  background: #3bbced;
+  padding: 30px;
+  margin-top: 10px;
+}
+
+#home div:nth-child(even) {
+  background: #777;
+  padding: 30px;
 }
