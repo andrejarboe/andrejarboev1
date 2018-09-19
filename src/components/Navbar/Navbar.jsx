@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+// import '../../layouts/main.css'
 import './navbar.css'
-import '../../layouts/main.css'
 
 const Navbar = () => (
-  <div
+  <nav
     style={{
       background: '#f4f4f4',
       paddingTop: '10px',
@@ -56,7 +56,7 @@ const Navbar = () => (
         <Link to="/blog">Blog</Link>
       </li>
     </ul>
-  </div>
+  </nav>
 )
 
 export default Navbar

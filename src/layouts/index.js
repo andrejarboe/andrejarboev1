@@ -54,7 +54,6 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-
 // import Header from '../components/Header/Header';
 // import {Main} from './components/Main';
 
@@ -62,9 +61,8 @@ import Header from '../components/Header'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-import './index.css'
 import './main.css'
-
+import './index.css'
 
 const Layout = ({ children, data }) => (
   <div className="App Site">
@@ -72,12 +70,12 @@ const Layout = ({ children, data }) => (
       <div className="App-header">
         {/* <Header /> */}
         <Helmet>
-          <script 
+          <script
             defer
             src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
             integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB"
-            crossorigin="anonymous">
-          </script>
+            crossorigin="anonymous"
+          />
         </Helmet>
         <Navbar />
       </div>

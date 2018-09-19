@@ -14,7 +14,7 @@
     flex: 1 0 auto;
     padding: var(--space) var(--space) 0;
     width: 100%;
-    padding-top: 0;
+    padding-top: 0; /* Needed for netlify*/
 }
 
 .Site-content:after {

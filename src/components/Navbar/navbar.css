@@ -9,19 +9,16 @@
     color: #001f3f;
 }
 
-h1 {
+nav h1 {
   text-align: center;
+  margin: 0;
 }
 
 .social {
-  /* display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(6, 1fr); */
-  /* grid-template-columns: repeat(6, 1fr);  */
   display: flex;
   justify-content: space-evenly;
-  /* margin: 0 40rem; */
   text-align: center;
   max-width: 500px;
-  margin: 0 auto;
+  margin: 10px auto;
+  /* padding:  */
 }
