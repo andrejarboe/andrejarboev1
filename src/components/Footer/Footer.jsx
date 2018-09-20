@@ -2,15 +2,8 @@ import React from 'react';
 import Link from 'gatsby-link';
 
  const Footer = () => (
-    <footer style={{
-        background: '#f4f4f4',
-        paddingTop: '10px',
-    }}>
-      <ul style={{
-          listStyle: 'none',
-          display: 'flex',
-          justifyContent: 'space-evenly'
-      }}>
+    <footer>
+      <ul>
         <li>
             <Link to="/">Home</Link>
         </li>

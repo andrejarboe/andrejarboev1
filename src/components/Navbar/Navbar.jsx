@@ -5,7 +5,6 @@ import { Location } from '@reach/router'
 // import { Router, Link } from '@reach/router'
 
 // import '../../layouts/main.css'
-import './navbar.css'
 
 const Navbar = () => (
   <nav className="wrapper" id="Navbar">
@@ -35,13 +34,7 @@ const Navbar = () => (
         <i className="fab fa-instagram " />
       </a>
     </div>
-    <ul
-      style={{
-        listStyle: 'none',
-        display: 'flex',
-        justifyContent: 'space-evenly',
-      }}
-    >
+    <ul>
       <li>
         <Link exact to="/" activeClassName="active">
           Home
@@ -69,13 +62,3 @@ const Navbar = () => (
 
 export default Navbar
 
-function pathname() {
-  return (
-    <Location>
-      {({ location }) => {
-        const apple = location.pathname
-        console.log(apple)
-      }}
-    </Location>
-  )
-}

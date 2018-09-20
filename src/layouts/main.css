@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: #fff;
 }
 
 :root {
@@ -69,6 +70,12 @@ nav .social {
   margin: 9px auto 25px auto;
 }
 
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 nav .active{
   border-bottom: 6px solid var(--primary);
    
@@ -86,16 +93,6 @@ nav li {
   max-width: 960px;
   margin: 35px auto;
   grid-gap: 1rem;
-  /* margin-bottom: 26.1px; */
+
 }
 
-/* #home div {
-  background: #3bbced;
-  padding: 30px;
-  margin-top: 10px;
-}
-
-#home div:nth-child(even) {
-  background: #777;
-  padding: 30px;
-} */
