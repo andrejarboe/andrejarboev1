@@ -77,7 +77,6 @@ const Layout = ({ children, data }) => (
             crossorigin="anonymous"
           />
           <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:100" rel="stylesheet" />
-          {/* <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet"></link> */}
         </Helmet>
         <Navbar />
       </div>
