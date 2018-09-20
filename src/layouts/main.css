@@ -66,7 +66,12 @@ nav .social {
   justify-content: space-evenly;
   text-align: center;
   max-width: 500px;
-  margin: 10px auto;
+  margin: 9px auto 25px auto;
+}
+
+nav .active{
+  border-bottom: 6px solid var(--primary);
+   
 }
 
 nav li {
@@ -79,12 +84,12 @@ nav li {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   max-width: 960px;
-  margin: 0 auto;
+  margin: 35px auto 0 auto;
   grid-gap: 1rem;
   /* margin-bottom: 26.1px; */
 }
 
-#home div {
+/* #home div {
   background: #3bbced;
   padding: 30px;
   margin-top: 10px;
@@ -93,4 +98,4 @@ nav li {
 #home div:nth-child(even) {
   background: #777;
   padding: 30px;
-}
+} */
