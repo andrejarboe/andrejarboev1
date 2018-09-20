@@ -7,14 +7,6 @@ import Link from 'gatsby-link'
 // import '../../layouts/main.css'
 import './navbar.css'
 
-
-
-const bat = location;
-
-console.log('****************')
-console.log(bat)
-console.log('****************')
-
 const Navbar = bat => (
   <nav className="wrapper" id="Navbar">
     <div className="actor">
