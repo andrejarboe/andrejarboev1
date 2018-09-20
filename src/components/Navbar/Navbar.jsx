@@ -1,13 +1,15 @@
 import React from 'react'
 import Link from 'gatsby-link'
-// import { Location } from '@reach/router'
+import { Location } from '@reach/router'
 
 // import { Router, Link } from '@reach/router'
 
 // import '../../layouts/main.css'
 import './navbar.css'
 
-const Navbar = bat => (
+const Navbar = () => (
+      <Location>
+        {({ location }) => (
   <nav className="wrapper" id="Navbar">
     <div className="actor">
       <h1>Andre Jarboe</h1>
@@ -41,10 +43,19 @@ const Navbar = bat => (
         display: 'flex',
         justifyContent: 'space-evenly',
       }}
-    >
- 
+      >
+      {/* {pathname()} */}
+      {/* {console.log("***********")}
+      {console.log(apple)}
+    {console.log("*****")} */}
 
-      <li path="/" className={location.pathname === '/' ? 'active' : ''}>
+          {/* <h1>
+            HI
+            {location.pathname}
+          </h1> */}
+
+
+      <li className={location.pathname === '/' ? 'active' : ''}>
         <Link to="/">Home</Link>
       </li>
 
@@ -59,7 +70,19 @@ const Navbar = bat => (
       </li>
     </ul>
   </nav>
+)}
+</Location>
 )
 
 export default Navbar
 
+function pathname() {
+  return (
+    <Location>
+      {({ location }) => {
+        const apple = location.pathname
+        console.log(apple)
+      }}
+    </Location>
+  )
+}

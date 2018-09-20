@@ -76,7 +76,10 @@ const Layout = ({ children, data }) => (
             integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB"
             crossorigin="anonymous"
           />
-          <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:100" rel="stylesheet" />
+          <link
+            href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:100"
+            rel="stylesheet"
+          />
         </Helmet>
         <Navbar />
       </div>
