@@ -8,8 +8,6 @@ import { Location } from '@reach/router'
 import './navbar.css'
 
 const Navbar = () => (
-      <Location>
-        {({ location }) => (
   <nav className="wrapper" id="Navbar">
     <div className="actor">
       <h1>Andre Jarboe</h1>
@@ -43,35 +41,30 @@ const Navbar = () => (
         display: 'flex',
         justifyContent: 'space-evenly',
       }}
-      >
-      {/* {pathname()} */}
-      {/* {console.log("***********")}
-      {console.log(apple)}
-    {console.log("*****")} */}
-
-          {/* <h1>
-            HI
-            {location.pathname}
-          </h1> */}
-
-
-      <li className={location.pathname === '/' ? 'active' : ''}>
-        <Link to="/">Home</Link>
+    >
+      <li>
+        <Link exact to="/" activeClassName="active">
+          Home
+        </Link>
       </li>
 
-      <li className={location.pathname === '/about' ? 'active' : ''}>
-        <Link to="/about">About</Link>
+      <li>
+        <Link to="/about" activeClassName="active">
+          About
+        </Link>
       </li>
-      <li className={location.pathname === '/resume' ? 'active' : ''}>
-        <Link to="/resume">Resume</Link>
+      <li>
+        <Link to="/resume" activeClassName="active">
+          Resume
+        </Link>
       </li>
-      <li className={location.pathname === '/blog' ? 'active' : ''}>
-        <Link to="/blog">Blog</Link>
+      <li>
+        <Link to="/blog" activeClassName="active">
+          Blog
+        </Link>
       </li>
     </ul>
   </nav>
-)}
-</Location>
 )
 
 export default Navbar
