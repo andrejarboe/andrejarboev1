@@ -24,7 +24,6 @@ collections:
       - file: "src/pages/home/index.md"
         label: "Home Page"
       - name: 'home'
-        # folder: 'src/pages/home'
         fields: 
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'home' }
           - { label: 'Title', name: 'title', widget: 'hidden', default: 'Home Page'}
