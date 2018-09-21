@@ -16,7 +16,7 @@ const Navbar = () => (
         <i className="fab fa-instagram " />
       </a>
       <a
-        href="https://www.facebook.com/Andre-Jarboe-2074125976194302/"
+        href="https://www.facebook.com/andrejarboeii/"
         target="_blank"
       >
         <i className="fab fa-facebook " />
