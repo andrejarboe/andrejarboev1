@@ -9,7 +9,7 @@ collections:
   - name: 'home'
     label: "Home Page"
     folder: 'src/pages/home'
-    create: false
+    create: true
     fields: 
       - { label: 'Image 1', name: 'img1', widget: 'img' }
       - { label: 'Image 2', name: 'img2', widget: 'img' }
