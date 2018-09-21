@@ -143,14 +143,6 @@ footer a, footer h3,
   color: var(--light);
 }
 
-.footer-info{
-  /* grid-row: 1 / span 3; */
-  /* grid-template-rows: repeat(3, 1fr); */
-  /* display: flex;
-  flex-direction: column; */
-  /* justify-content: space-evenly; */
-
-}
 .footer-name{
   font-family: 'Roboto', sans-serif;
   grid-area: name;
