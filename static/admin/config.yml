@@ -11,9 +11,9 @@ collections:
     folder: 'src/pages/home'
     create: true
     fields: 
-      - { label: 'Image 1', name: 'img1', widget: 'img' }
-      - { label: 'Image 2', name: 'img2', widget: 'img' }
-      - { label: 'Image 3', name: 'img3', widget: 'img' }
+      - { label: 'Image 1', name: 'img1', widget: 'image' }
+      - { label: 'Image 2', name: 'img2', widget: 'image' }
+      - { label: 'Image 3', name: 'img3', widget: 'image' }
 
   - name: 'blog'
     label: 'Blog'
