@@ -3,8 +3,8 @@ module.exports = {
     title: 'Gatsby Default Starter',
   },
   plugins: [
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-styled-components",
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-styled-components',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -13,20 +13,20 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "img",
-        path: `${__dirname}/static/assets`
-      }
+        name: 'img',
+        path: `${__dirname}/static/assets`,
+      },
     },
     {
-      resolve: "gatsby-transformer-remark",
+      resolve: 'gatsby-transformer-remark',
       options: {
-        excerpt_separator: `<!-- end -->`
-      }
+        excerpt_separator: `<!-- end -->`,
+      },
     },
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-sharp",
-    "gatsby-plugin-netlify-cms"
-  ]
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    'gatsby-plugin-netlify-cms',
+  ],
 }
