@@ -4,8 +4,8 @@ import Link from 'gatsby-link'
 const Footer = () => (
   <footer>
     <div className="container">
-      <section className="footer-info">
-        <h3>Andre Jarboe</h3>
+      {/* <section className="footer-info"> */}
+        <h3 className="footer-name">Andre Jarboe</h3>
         <div className="social">
           <a href="https://www.instagram.com/andrejarboeii/" target="_blank">
             <i className="fab fa-instagram " />
@@ -28,11 +28,11 @@ const Footer = () => (
           <a href="https://www.instagram.com/andrejarboeii/" target="_blank">
             <i className="fab fa-instagram " />
           </a>
-          <a href="https://www.jarboestudios.com/" target="_blank">
+        </div>
+          <a href="https://www.jarboestudios.com/" target="_blank" className="tag">
             <h3>Designed and coded by Jarboe Studios</h3>
           </a>
-        </div>
-      </section>
+      {/* </section> */}
       <ul className="site-map">
         <li>
           <Link to="/">Home</Link>
