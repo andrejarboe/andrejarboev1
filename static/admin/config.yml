@@ -6,6 +6,15 @@ media_folder: static/assets
 public_folder: /assets
 
 collections:
+  - name: 'home'
+    label: "Home Page"
+    folder: 'src/pages/home'
+    create: false
+    fields: 
+      - { label: 'Image 1', name: 'img1', widget: 'img' }
+      - { label: 'Image 2', name: 'img2', widget: 'img' }
+      - { label: 'Image 3', name: 'img3', widget: 'img' }
+
   - name: 'blog'
     label: 'Blog'
     folder: 'src/pages/post'
