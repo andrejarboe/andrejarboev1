@@ -9,16 +9,15 @@ import { Location } from '@reach/router'
 const Navbar = () => (
   <nav className="wrapper" id="Navbar">
     <div className="actor">
-      <h1>Andre Jarboe</h1>
+      <Link exact to="/">
+        <h1>Andre Jarboe</h1>
+      </Link>
     </div>
     <div className="social">
       <a href="https://www.instagram.com/andrejarboeii/" target="_blank">
         <i className="fab fa-instagram " />
       </a>
-      <a
-        href="https://www.facebook.com/andrejarboeii/"
-        target="_blank"
-      >
+      <a href="https://www.facebook.com/andrejarboeii/" target="_blank">
         <i className="fab fa-facebook " />
       </a>
       <a href="https://www.instagram.com/andrejarboeii/" target="_blank">
@@ -61,4 +60,3 @@ const Navbar = () => (
 )
 
 export default Navbar
-
