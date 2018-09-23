@@ -1,5 +1,5 @@
 ---
-layout: 'home'
+layout: home
 images:
     - /assets/headshot1.jpg
     - /assets/headshot2.jpg
