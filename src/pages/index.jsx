@@ -5,7 +5,6 @@ export default function IndexPage({ data }) {
 
   return (
     <div id="home">
-      {console.log(data.markdownRemark.frontmatter.headshots[0].images)}
       {data.markdownRemark.frontmatter.headshots.map(image => {
         return (
           <div>
