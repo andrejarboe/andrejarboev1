@@ -12,6 +12,13 @@ module.exports = {
         name: 'pages',
       },
     },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     path: `${__dirname}/src/pages/index`,
+    //     name: 'index',
+    //   },
+    // },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
