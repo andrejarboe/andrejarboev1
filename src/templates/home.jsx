@@ -21,7 +21,7 @@ export const query = graphql`
     markdownRemark(frontmatter: { layout: { eq: "home" } }) {
       frontmatter {
         layout
-        images
+
       }
     }
   }

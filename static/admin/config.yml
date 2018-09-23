@@ -52,5 +52,5 @@ collections:
               label: Headshots,
               name: headshots,
               widget: list,
-              fields: [{ label: 'Images', name: 'images', widget: 'image' }],
+              fields: [{ label: 'Images', name: 'path', widget: 'image' }],
             }

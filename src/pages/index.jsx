@@ -5,11 +5,12 @@ export default function IndexPage({ data }) {
 
   return (
     <div id="home">
-      {data.markdownRemark.frontmatter.images.map(image => {
-        return(
-        <div>
-          <img key={image} src={image} alt="" />
-        </div>
+      {console.log(data.markdownRemark.frontmatter.headshots[0].images)}
+      {data.markdownRemark.frontmatter.headshots.map(image => {
+        return (
+          <div>
+            <img key={image.path} src={image.path} alt="" />
+          </div>
         )
       })}
     </div>
@@ -21,7 +22,9 @@ export const query = graphql`
     markdownRemark(frontmatter: { layout: { eq: "home" } }) {
       frontmatter {
         layout
-        images
+        headshots {
+          path
+        }
       }
     }
   }
