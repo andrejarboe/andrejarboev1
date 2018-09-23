@@ -1,7 +1,8 @@
 ---
 layout: home
-images:
-    - /assets/headshot1.jpg
-    - /assets/headshot2.jpg
-    - /assets/headshot3.jpg
+headshots:
+  - images: /assets/headshot1.JPG
+  - images: /assets/headshot2.JPG
+  - images: /assets/headshot3.JPG
 ---
+
