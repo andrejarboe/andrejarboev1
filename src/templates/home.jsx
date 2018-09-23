@@ -5,27 +5,23 @@ export default function IndexPage({ data }) {
 
   return (
     <div id="home">
-      <div>
-        <img src={post.frontmatter.img1} alt="" />
-      </div>
-      <div>
-        <img src={post.frontmatter.img2} alt="" />
-      </div>
-      <div>
-        <img src={post.frontmatter.img3} alt="" />
-      </div>
+      {data.markdownRemark.frontmatter.images.map(image => {
+        return(
+        <div>
+          <img key={image} src={image} alt="" />
+        </div>
+        )
+      })}
     </div>
   )
 }
 
 export const query = graphql`
-  query homeQuery {
+  query home2Query {
     markdownRemark(frontmatter: { layout: { eq: "home" } }) {
       frontmatter {
         layout
-        img1
-        img2
-        img3
+        images
       }
     }
   }

@@ -1,13 +1,7 @@
 ---
-layout: home
-img1: /assets/andrejarboeheadshot.jpg
-img2: /assets/img_0286.jpg
-img3: /assets/img_0253.jpg
-Layout',
-Title', 
-Image 4'
-Image 1'
-Image 2'
-Image 3'
+layout: 'home'
+images:
+    - /assets/headshot1.jpg
+    - /assets/headshot2.jpg
+    - /assets/headshot3.jpg
 ---
-

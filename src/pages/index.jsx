@@ -1,18 +1,28 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
-const IndexPage = () => (
-  <div id="home">
-    <div>
-      <img src="https://source.unsplash.com/user/erondu/900x1600" alt="" />
-    </div>
-    <div>
-      <img src="https://source.unsplash.com/user/erondu/901x1601" alt="" />
-    </div>
-    <div>
-      <img src="https://source.unsplash.com/user/erondu/902x1602" alt="" />
-    </div>
-  </div>
-)
+export default function IndexPage({ data }) {
+  const post = data.markdownRemark
 
-export default IndexPage
+  return (
+    <div id="home">
+      {data.markdownRemark.frontmatter.images.map(image => {
+        return(
+        <div>
+          <img key={image} src={image} alt="" />
+        </div>
+        )
+      })}
+    </div>
+  )
+}
+
+export const query = graphql`
+  query homeQuery {
+    markdownRemark(frontmatter: { layout: { eq: "home" } }) {
+      frontmatter {
+        layout
+        images
+      }
+    }
+  }
+`
