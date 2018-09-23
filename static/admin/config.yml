@@ -48,7 +48,7 @@ collections:
               widget: 'hidden',
               default: 'home',
             }
-          - { label: 'Images', name: images, widget: 'image' }
+          - { label: 'Images', name: 'images', widget: 'image' }
   #         - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'home' }
   #         - { label: 'Title', name: 'title', widget: 'hidden', default: 'Home Page'}
   #         - { label: 'Image 4', name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}
