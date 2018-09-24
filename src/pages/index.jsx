@@ -17,7 +17,7 @@ export default function IndexPage({ data }) {
 }
 
 export const query = graphql`
-  query homeQuery {
+  query indexQuery {
     markdownRemark(frontmatter: { layout: { eq: "home" } }) {
       frontmatter {
         layout
