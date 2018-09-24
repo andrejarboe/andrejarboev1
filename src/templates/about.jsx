@@ -1,5 +1,4 @@
 import React from 'react'
-import Headshot1 from '../../static/assets/headshot1.jpg'
 
 export default function Template({ data }) {
   const about = data.markdownRemark
