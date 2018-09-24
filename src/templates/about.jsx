@@ -8,7 +8,7 @@ export default function Template({ data }) {
     <div id="about">
       <div className="container">
         <div className="headshot">
-          <img src={Headshot1} alt="" />
+          <img src={about.frontmatter.image} alt="" />
         </div>
         <div className="content">
           <h1>{about.frontmatter.title}</h1>
@@ -26,6 +26,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        image
       }
     }
   }
